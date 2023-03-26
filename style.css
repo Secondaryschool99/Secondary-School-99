@@ -1,0 +1,163 @@
+
+/* Global Styles */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.col-md-4 {
+	flex: 0 0 33.3333333333%;
+	max-width: 33.3333333333%;
+	padding: 0 15px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Header Styles */
+header {
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.logo {
+	font-size: 32px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}
+
+.photo-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #f2f2f2;
+}
+
+/* Main Content Styles */
+main {
+    padding: 50px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #333;
+}
+
+.photo-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.photo-section img {
+    max-width: 100%;
+}
+
+.photo-section figcaption {
+    font-style: italic;
+    margin-top: 10px;
+    color: #777;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white ;
+    text-decoration: none;
+}
+.footerlinks {
+    color: white !important;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #777;
+}
+
+
+/* Media Query for Small Devices */
+@media (max-width: 768px) {
+.col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
